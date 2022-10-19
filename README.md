@@ -1,5 +1,5 @@
 ## Description
-NOTE: This repo is a from from @cldwalker.
+NOTE: This repo is a fork from @cldwalker.
 You can find my global config under `config` folder.
 
 This project contains my [Logseq](https://logseq.com/) configuration including
