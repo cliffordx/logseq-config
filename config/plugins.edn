@@ -1,11 +1,261 @@
-{:logseq-power-plugin {:version "v1.0.0", :repo "hkgnp/logseq-power-plugin", :effect true, :theme false}
- :logtools {:version "0.0.5", :repo "cannibalox/logtools", :effect false, :theme false}
- :logseq-swapblocks-plugin {:version "v1.3.0", :repo "hkgnp/logseq-swapblocks-plugin", :effect false, :theme false}
- :logseq-luma {:version "0.3.1", :repo "gavinmn/logseq-luma", :effect false, :theme true}
- :logseq-tablerender-plugin {:version "v1.9.0", :repo "hkgnp/logseq-tablerender-plugin", :effect false, :theme false}
- :logseq-heatmap {:version "v2.4.2", :repo "pengx17/logseq-plugin-heatmap", :effect true, :theme false}
- :logseq-bullet-threading {:version "v1.1.0", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false}
- :logseq-osmmaps-plugin {:version "v1.5", :repo "hkgnp/logseq-osmmaps-plugin", :effect true, :theme false}
- :logseq-vim-shortcuts {:version "v0.1.15", :repo "vipzhicheng/logseq-plugin-vim-shortcuts", :effect true, :theme false}
- :logseq-plugin-gpt3-openai {:version "v1.0.1", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false}
- :logseq-fenced-code-plus {:version "0.0.4", :repo "xyhp915/logseq-fenced-code-plus", :effect true, :theme false}}
+{:logseq-summarizer
+ {:version "0.0.4",
+  :repo "trashhalo/logseq-summarizer",
+  :effect false,
+  :theme false},
+ :logseq-dictionary
+ {:version "0.0.2",
+  :repo "trashhalo/logseq-dictionary",
+  :effect false,
+  :theme false},
+ :logseq-chartrender-plugin
+ {:version "v1.10.0",
+  :repo "hkgnp/logseq-chartrender-plugin",
+  :effect false,
+  :theme false},
+ :logseq-block-calendar
+ {:version "v0.1.8",
+  :repo "vipzhicheng/logseq-plugin-block-calendar",
+  :effect true,
+  :theme false},
+ :logseq-toc-plugin
+ {:version "v1.5.2",
+  :repo "hkgnp/logseq-toc-plugin",
+  :effect false,
+  :theme false},
+ :logseq-awesome-ui
+ {:version "v1.2.12",
+  :repo "yoyurec/logseq-awesome-ui",
+  :effect true,
+  :theme false},
+ :logseq-web-parser
+ {:version "1.0.4",
+  :repo "sawhney17/logseq-web-parser",
+  :effect true,
+  :theme false},
+ :logseq-move-block
+ {:version "v0.0.13",
+  :repo "vipzhicheng/logseq-plugin-move-block",
+  :effect true,
+  :theme false},
+ :logseq-calendars-plugin
+ {:version "2.2.5",
+  :repo "sawhney17/logseq-calendars-plugin",
+  :effect true,
+  :theme false},
+ :logtools
+ {:version "0.0.5",
+  :repo "cannibalox/logtools",
+  :effect false,
+  :theme false},
+ :logseq-paper-theme
+ {:version "v0.2.2",
+  :repo "wirtzdan/logseq-paper-theme",
+  :effect false,
+  :theme true},
+ :logseq-atlas-theme
+ {:version "v0.2.19",
+  :repo "sethfair/logseq-atlas-theme",
+  :effect false,
+  :theme true},
+ :logseq-flow-theme
+ {:version "0.1.9", :repo "nmartin84/logseq-flow", :effect false, :theme true},
+ :logseq-todo-plugin
+ {:version "v1.11.1", :repo "ahonn/logseq-plugin-todo", :effect true, :theme false},
+ :logseq-comment-block
+ {:version "v0.0.7",
+  :repo "vipzhicheng/logseq-plugin-comment-block",
+  :effect false,
+  :theme false},
+ :logseq-journals-calendar
+ {:version "0.10.5",
+  :repo "xyhp915/logseq-journals-calendar",
+  :effect false,
+  :theme false},
+ :logseq-reset-sidebar
+ {:version "v0.0.3",
+  :repo "vipzhicheng/logseq-plugin-reset-sidebar",
+  :effect false,
+  :theme false},
+ :logseq-pen
+ {:version "v0.0.2",
+  :repo "vipzhicheng/logseq-plugin-pen",
+  :effect false,
+  :theme false},
+ :logseq-awesome-styler
+ {:version "v3.1.0",
+  :repo "yoyurec/logseq-awesome-styler",
+  :effect true,
+  :theme false},
+ :logseq-markdown-table
+ {:version "v1.7.0",
+  :repo "haydenull/logseq-plugin-markdown-table",
+  :effect false,
+  :theme false},
+ :logseq-property-visualizer
+ {:version "1.0.4",
+  :repo "sawhney17/logseq-property-visualizer",
+  :effect false,
+  :theme false},
+ :logseq-bionic-speedreader
+ {:version "1.0.1",
+  :repo "sawhney17/logseq-bionic-speedreader",
+  :effect true,
+  :theme false},
+ :logseq-tablerender-plugin
+ {:version "v1.9.0",
+  :repo "hkgnp/logseq-tablerender-plugin",
+  :effect false,
+  :theme false},
+ :logseq-bullet-threading
+ {:version "v1.1.0",
+  :repo "pengx17/logseq-plugin-bullet-threading",
+  :effect false,
+  :theme false},
+ :logseq-banners-plugin
+ {:version "v3.4.5",
+  :repo "yoyurec/logseq-banners-plugin",
+  :effect true,
+  :theme false},
+ :logseq-datenlp-plugin
+ {:version "v3.11.2",
+  :repo "hkgnp/logseq-datenlp-plugin",
+  :effect true,
+  :theme false},
+ :logseq-pdf-export-plugin
+ {:version "2.2.6",
+  :repo "sawhney17/logseq-pdf-export",
+  :effect true,
+  :theme false},
+ :logseq-sticky-headers
+ {:version "v1.4.2",
+  :repo "yoyurec/logseq-sticky-headers",
+  :effect true,
+  :theme false},
+ :logseq-interstial-heading-plugin {:version "0.1.7", :theme false},
+ :logseq-awesome-links
+ {:version "v1.9.7",
+  :repo "yoyurec/logseq-awesome-links",
+  :effect true,
+  :theme false},
+ :logseq-bonofix-theme
+ {:version "v3.7.6",
+  :repo "sansui233/logseq-bonofix-theme",
+  :effect false,
+  :theme true},
+ :logseq-admonition-panels
+ {:version "0.1.0",
+  :repo "nmartin84/admonition-panels",
+  :effect false,
+  :theme false},
+ :logseq-todo-master
+ {:version "v1.10.3",
+  :repo "pengx17/logseq-plugin-todo-master",
+  :effect false,
+  :theme false},
+ :logseq-plugin-gpt3-openai
+ {:version "v1.1.2",
+  :repo "briansunter/logseq-plugin-gpt3-openai",
+  :effect true,
+  :theme false},
+ :logseq-plugin-random-block {:version "0.0.1", :theme false},
+ :logseq-tabs
+ {:version "v1.17.2",
+  :repo "pengx17/logseq-plugin-tabs",
+  :effect true,
+  :theme false},
+ :logseq-helium-plugin
+ {:version "v.2.1.1",
+  :repo "vyleung/logseq-helium-plugin",
+  :effect true,
+  :theme false},
+ :logseq-block-to-page
+ {:version "v1.3.0",
+  :repo "hyrijk/logseq-plugin-block-to-page",
+  :effect false,
+  :theme false},
+ :logseq-readwise-official-plugin
+ {:version "v1.3.5",
+  :repo "readwiseio/logseq-readwise-official-plugin",
+  :effect true,
+  :theme false},
+ :logseq-reference-styles
+ {:version "v0.0.3",
+  :repo "benjaffe/logseq-reference-styles",
+  :effect false,
+  :theme false},
+ :logseq-agenda
+ {:version "v2.8.0",
+  :repo "haydenull/logseq-plugin-agenda",
+  :effect true,
+  :theme false},
+ :logseq-link-preview
+ {:version "v2.2.9",
+  :repo "pengx17/logseq-plugin-link-preview",
+  :effect true,
+  :theme false},
+ :logseq-toolbox
+ {:version "0.0.2",
+  :repo "tankcool/logseq-toolbox",
+  :effect false,
+  :theme false},
+ :logseq-focus-mode
+ {:version "v1.0.3",
+  :repo "sethfair/logseq-focus-mode",
+  :effect false,
+  :theme false},
+ :logseq-kanban-plugin
+ {:version "v2.7.3",
+  :repo "hkgnp/logseq-kanban-plugin",
+  :effect false,
+  :theme false},
+ :logseq-tags
+ {:version "v0.1.2",
+  :repo "gidongkwon/logseq-plugin-tags",
+  :effect false,
+  :theme false},
+ :logseq-tocgen
+ {:version "v1.21.2",
+  :repo "sethyuan/logseq-plugin-tocgen",
+  :effect true,
+  :theme false},
+ :logseq-wordcount-plugin
+ {:version "v2.1.2",
+  :repo "hkgnp/logseq-wordcount-plugin",
+  :effect false,
+  :theme false},
+ :logseq-tabular {:version "0.1.1", :theme false},
+ :logseq-dev-theme
+ {:version "v1.26.12",
+  :repo "pengx17/logseq-dev-theme",
+  :effect false,
+  :theme true},
+ :logseq-habit-tracker
+ {:version "v0.4.0",
+  :repo "c6p/logseq-habit-tracker",
+  :effect false,
+  :theme false},
+ :logseq-graph-analysis
+ {:version "0.7.0",
+  :repo "trashhalo/logseq-graph-analysis",
+  :effect false,
+  :theme false},
+ :logseq-smartblocks
+ {:version "3.51",
+  :repo "sawhney17/logseq-smartblocks",
+  :effect false,
+  :theme false},
+ :logseq-pdf-print
+ {:version "v0.0.3",
+  :repo "supery-chen/logseq-plugin-pdf-print",
+  :effect true,
+  :theme false},
+ :logseq-media-ts
+ {:version "v0.12.1",
+  :repo "sethyuan/logseq-plugin-media-ts",
+  :effect true,
+  :theme false},
+ :logseq-mark-map
+ {:version "v0.2.11", :repo "vipzhicheng/logseq-plugin-mark-map", :effect false, :theme false}
+ :logseq-wrap {:version "v0.5.1", :repo "sethyuan/logseq-plugin-wrap", :effect true, :theme false}
+ :logseq-doc {:version "v1.12.2", :repo "sethyuan/logseq-plugin-doc", :effect true, :theme false}}
