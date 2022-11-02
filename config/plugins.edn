@@ -14,19 +14,11 @@
   :effect false,
   :theme false},
  :logseq-block-calendar
- {:version "v0.1.8",
-  :repo "vipzhicheng/logseq-plugin-block-calendar",
-  :effect true,
-  :theme false},
+ {:version "v0.1.9", :repo "vipzhicheng/logseq-plugin-block-calendar", :effect true, :theme false},
  :logseq-toc-plugin
  {:version "v1.5.2",
   :repo "hkgnp/logseq-toc-plugin",
   :effect false,
-  :theme false},
- :logseq-awesome-ui
- {:version "v1.2.12",
-  :repo "yoyurec/logseq-awesome-ui",
-  :effect true,
   :theme false},
  :logseq-web-parser
  {:version "1.0.4",
@@ -59,7 +51,7 @@
   :effect false,
   :theme true},
  :logseq-flow-theme
- {:version "0.1.9", :repo "nmartin84/logseq-flow", :effect false, :theme true},
+ {:version "0.3.4", :repo "nmartin84/logseq-flow", :effect false, :theme true},
  :logseq-todo-plugin
  {:version "v1.11.1", :repo "ahonn/logseq-plugin-todo", :effect true, :theme false},
  :logseq-comment-block
@@ -82,11 +74,6 @@
   :repo "vipzhicheng/logseq-plugin-pen",
   :effect false,
   :theme false},
- :logseq-awesome-styler
- {:version "v3.1.0",
-  :repo "yoyurec/logseq-awesome-styler",
-  :effect true,
-  :theme false},
  :logseq-markdown-table
  {:version "v1.7.0",
   :repo "haydenull/logseq-plugin-markdown-table",
@@ -107,11 +94,6 @@
   :repo "hkgnp/logseq-tablerender-plugin",
   :effect false,
   :theme false},
- :logseq-bullet-threading
- {:version "v1.1.0",
-  :repo "pengx17/logseq-plugin-bullet-threading",
-  :effect false,
-  :theme false},
  :logseq-banners-plugin
  {:version "v3.4.5",
   :repo "yoyurec/logseq-banners-plugin",
@@ -127,17 +109,7 @@
   :repo "sawhney17/logseq-pdf-export",
   :effect true,
   :theme false},
- :logseq-sticky-headers
- {:version "v1.4.2",
-  :repo "yoyurec/logseq-sticky-headers",
-  :effect true,
-  :theme false},
  :logseq-interstial-heading-plugin {:version "0.1.7", :theme false},
- :logseq-awesome-links
- {:version "v1.9.7",
-  :repo "yoyurec/logseq-awesome-links",
-  :effect true,
-  :theme false},
  :logseq-bonofix-theme
  {:version "v3.7.6",
   :repo "sansui233/logseq-bonofix-theme",
@@ -154,16 +126,10 @@
   :effect false,
   :theme false},
  :logseq-plugin-gpt3-openai
- {:version "v1.1.2",
-  :repo "briansunter/logseq-plugin-gpt3-openai",
-  :effect true,
-  :theme false},
+ {:version "v1.2.1", :repo "briansunter/logseq-plugin-gpt3-openai", :effect true, :theme false},
  :logseq-plugin-random-block {:version "0.0.1", :theme false},
  :logseq-tabs
- {:version "v1.17.2",
-  :repo "pengx17/logseq-plugin-tabs",
-  :effect true,
-  :theme false},
+ {:version "v1.18.0", :repo "pengx17/logseq-plugin-tabs", :effect true, :theme false},
  :logseq-helium-plugin
  {:version "v.2.1.1",
   :repo "vyleung/logseq-helium-plugin",
@@ -215,16 +181,12 @@
   :effect false,
   :theme false},
  :logseq-tocgen
- {:version "v1.21.2",
-  :repo "sethyuan/logseq-plugin-tocgen",
-  :effect true,
-  :theme false},
+ {:version "v1.21.3", :repo "sethyuan/logseq-plugin-tocgen", :effect true, :theme false},
  :logseq-wordcount-plugin
  {:version "v2.1.2",
   :repo "hkgnp/logseq-wordcount-plugin",
   :effect false,
   :theme false},
- :logseq-tabular {:version "0.1.1", :theme false},
  :logseq-dev-theme
  {:version "v1.26.12",
   :repo "pengx17/logseq-dev-theme",
@@ -257,5 +219,9 @@
   :theme false},
  :logseq-mark-map
  {:version "v0.2.11", :repo "vipzhicheng/logseq-plugin-mark-map", :effect false, :theme false}
- :logseq-wrap {:version "v0.5.1", :repo "sethyuan/logseq-plugin-wrap", :effect true, :theme false}
- :logseq-doc {:version "v1.12.2", :repo "sethyuan/logseq-plugin-doc", :effect true, :theme false}}
+ :logseq-wrap {:version "v0.5.3", :repo "sethyuan/logseq-plugin-wrap", :effect true, :theme false}
+ :logseq-doc {:version "v1.12.2", :repo "sethyuan/logseq-plugin-doc", :effect true, :theme false}
+ :logseq-luckysheet {:version "v0.9.1", :repo "sethyuan/logseq-plugin-luckysheet", :effect true, :theme false}
+ :logseq-bullet-threading {:version "v1.1.0", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false}
+ :logseq-link-unlinked {:version "v1.0.0", :repo "usoonees/logseq-plugin-link-unlink", :effect true, :theme false}
+ :logseq-days {:version "v0.1.0", :repo "sethyuan/logseq-plugin-days", :effect true, :theme false}}
